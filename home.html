@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 col-sm-2 border border-dark">
+                    <div class="container d-flex flex-column">
+                    <i class="fab fa-twitter h1 text-primary mt-5 mb-5"></i>
+                    <i class="fad fa-home-alt h1 mb-5"></i>
+                    <i class="fas fa-hashtag h1 mb-5"></i>
+                    <i class="far fa-bell h1 mb-5"></i>
+                    <i class="far fa-envelope h1 mb-5"></i>
+                    <i class="far fa-user h1 mb-4"></i>
+                    <i class="fas fa-ellipsis-h h1"></i>
+                    <svg class="mb-4" id style="height: 50px; fill:rgb(29,166,244);" viewBox="0 0 24 24" aria-hidden="true" class="r-jwli3a r-4qtqp9 r-yyyyoo r-1472mwg r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M8.8 7.2H5.6V3.9c0-.4-.3-.8-.8-.8s-.7.4-.7.8v3.3H.8c-.4 0-.8.3-.8.8s.3.8.8.8h3.3v3.3c0 .4.3.8.8.8s.8-.3.8-.8V8.7H9c.4 0 .8-.3.8-.8s-.5-.7-1-.7zm15-4.9v-.1h-.1c-.1 0-9.2 1.2-14.4 11.7-3.8 7.6-3.6 9.9-3.3 9.9.3.1 3.4-6.5 6.7-9.2 5.2-1.1 6.6-3.6 6.6-3.6s-1.5.2-2.1.2c-.8 0-1.4-.2-1.7-.3 1.3-1.2 2.4-1.5 3.5-1.7.9-.2 1.8-.4 3-1.2 2.2-1.6 1.9-5.5 1.8-5.7z"></path></g></svg>
+                    <img id="profilepop" alt="" data-bs-toggle="modal" data-bs-target="#signoutpop" type="button" >
+                    <div class="modal fade " tabindex="-1" id="signoutpop">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button class="btn btn-primary">
+                                        Log Out
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-6 col-sm-5">
+                    <div class="container d-flex justify-content-between mt-4">
+                        <h1>Home</h1>
+                        <svg viewBox="0 0 24 24" style="height: 50px;" aria-hidden="true" class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-z80fyv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-19wmn03"><g><path d="M22.772 10.506l-5.618-2.192-2.16-6.5c-.102-.307-.39-.514-.712-.514s-.61.207-.712.513l-2.16 6.5-5.62 2.192c-.287.112-.477.39-.477.7s.19.585.478.698l5.62 2.192 2.16 6.5c.102.306.39.513.712.513s.61-.207.712-.513l2.16-6.5 5.62-2.192c.287-.112.477-.39.477-.7s-.19-.585-.478-.697zm-6.49 2.32c-.208.08-.37.25-.44.46l-1.56 4.695-1.56-4.693c-.07-.21-.23-.38-.438-.462l-4.155-1.62 4.154-1.622c.208-.08.37-.25.44-.462l1.56-4.693 1.56 4.694c.07.212.23.382.438.463l4.155 1.62-4.155 1.622zM6.663 3.812h-1.88V2.05c0-.414-.337-.75-.75-.75s-.75.336-.75.75v1.762H1.5c-.414 0-.75.336-.75.75s.336.75.75.75h1.782v1.762c0 .414.336.75.75.75s.75-.336.75-.75V5.312h1.88c.415 0 .75-.336.75-.75s-.335-.75-.75-.75zm2.535 15.622h-1.1v-1.016c0-.414-.335-.75-.75-.75s-.75.336-.75.75v1.016H5.57c-.414 0-.75.336-.75.75s.336.75.75.75H6.6v1.016c0 .414.335.75.75.75s.75-.336.75-.75v-1.016h1.098c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z"></path></g></svg>
+                    </div>
+
+                    <div class="container" id="homesearch">
+                        <img alt="">
+                        <input type="text" placeholder="What's happening?" class="mb-4">
+
+                        <div class="container ">
+                        <i class="fas fa-globe-americas mx-4 my-3 mb-5 text-primary" id="text"></i><span class="fw-bold text-primary">Everyone can Reply</span>
+                            <div class="container mt-3">
+                                <div class="d-flex justify-content-between">
+                                    <div id="icons">
+                                        <i class="far fa-image mx-2  h3"></i>
+                                        <i class="fal fa-gifts mx-2 h3"></i>
+                                        <i class="far fa-poll-h mx-2 h3"></i>
+                                        <i class="fal fa-smile-wink mx-2 h3"></i>
+                                        <i class="fad fa-calendar-day mx-2  h3"></i>
+                                    </div>
+                                    <div class="d-flex">
+                                        <button class="mx-5 fw-bold" id="tweetbtn">Tweet</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container tweets-holder">
+
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-5 border border-dark">
+                    <div class="container m-3" id="searchtwitter">
+                        <input type="text"  placeholder="Search Twitter">
+                    </div>
+
+                    <div class="container">
+                        <div class="trends p-4">
+                            <div class="d-flex justify-content-between">
+                                <h2>Trends for you</h2>
+                            <i class="fal fa-cog h1"></i>
+                            </div>
+                            <div >
+                                <h5>Trends in Kenya</h5>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+
+    <script src="/js/config.js"></script>
+    <script src="/js/home.js"></script>
+</body>
+</html>
